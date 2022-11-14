@@ -12,10 +12,10 @@ header {
     margin-left: 10%;
     padding: 150px;
     margin-bottom: 50px;
-   
+
 }
 
-h1{
+h1 {
 
     text-align: center;
     font-size: 30pt;
@@ -26,7 +26,7 @@ h1{
 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
-    text-align:center;
+    text-align: center;
     font-family: 'Sono', sans-serif;
     margin-bottom: 100px;
 }
@@ -40,8 +40,8 @@ h2 {
     flex-wrap: wrap;
     align-content: flex-start;
     margin-bottom: 50%;
-margin-left: 75px;
-margin-right: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .hijo {
