@@ -1,32 +1,74 @@
-
-body{
+body {
     margin: 0;
+    /* background-image: url(fotos/fondo.jpg); */
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url(fotos/Header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 150px;
+    margin-bottom: 50px;
+   
+}
+
+h1{
+
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Aboreto', cursive;
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    text-align:center;
+    font-family: 'Sono', sans-serif;
+    margin-bottom: 100px;
 }
 
 
-.contenedor{
+.contenedor {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    align-content:flex-start;
-
+    align-content: flex-start;
+    margin-bottom: 50%;
+margin-left: 75px;
+margin-right: 75px;
 }
 
-.hijo{
+.hijo {
     margin: 20px;
     /* background-color: aqua; */
     /* height: 275px; */
+    background-color: rgb(249, 249, 249);
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
-    align-content:flex-start;
+    align-content: flex-start;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    filter: blur(4px);
 }
 
-img{
-    width: 500px;
-    height: 520px;
+.hijo:hover {
+    filter: none;
+    filter: drop-shadow(0 0 1.5rem rgb(241, 234, 165));
+}
+
+
+img {
+    width: 450px;
+    height: 460px;
 
 }

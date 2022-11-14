@@ -5,41 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de imagenes</title>
+    <title>Galería de imagenes</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap" rel="stylesheet">
+
     <link rel="icon" href="fotos/1.gif">
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+
 </head>
 
 <body>
     <header>
-        <h1>MI GALERÍA DE DIBUJOS</h1>
+        <h1>Sara's gallery</h1>
+
     </header>
 
-    <p>En esta página encontraras diferentes ilustraciones mostrando la evolución de mi estilo.</p>
+    <h2>En esta página encontraras diferentes<br>
+         ilustraciones mostrando la evolución de mi estilo.</h2>
 
     <div class="contenedor">
 
         <div class="hijo">
-            <a href="index1.html" target="_blank"><img src="fotos/1.gif" alt="gif" title="gif" class="blur"></a>
+            <a href="fotos/1.gif" data-lightbox="roadtrip" data-title="Gif">
+                <img src="fotos/1.gif" alt="gif" title="gif" class="blur"></a>
         </div>
         <div class="hijo">
-            <a href="fotos/2.jpg" target="_blank"><img src="fotos/2.jpg" alt="foto2" title="foto2" class="blur"></a>
+            <a href="fotos/2.jpg" data-lightbox="roadtrip" data-title="Magia y poder">
+                <img src="fotos/2.jpg" alt="Imagen 2" title="Magia y poder" class="blur"></a>
         </div>
         <div class="hijo">
-            <a href="fotos/3.jpg" target="_blank"><img src="fotos/3.jpg" alt="foto3" title="foto3" class="blur"></a>
+            <a href="fotos/3.jpg" data-lightbox="roadtrip" data-title="Luz nocturna">
+                <img src="fotos/3.jpg" alt="foto3" title="Luz nocturna" class="blur"></a>
+        </div>
+        <div class="hijo" >
+            <a href="fotos/4.png" data-lightbox="roadtrip" data-title="Nerea">
+                <img src="fotos/4.png" alt="foto4" title="Nerea" class="blur"></a>
+        </div>
+        <div class="hijo">
+            <a href="fotos/5.png" data-lightbox="roadtrip" data-title="Expresiones">
+                <img src="fotos/5.png" alt="foto5" title="Expresiones" class="blur"></a>
         </div>
 
         <div class="hijo">
-            <a href="fotos/4.png" target="_blank"><img src="fotos/4.png" alt="foto4" title="foto4" class="blur"></a>
+            <a href="fotos/6.svg" data-lightbox="roadtrip" data-title="8 de Marzo">
+                <img src="fotos/6.svg" alt="foto6" title="8 de Marzo" class="blur"></a>
         </div>
-        <div class="hijo"><a href="index5.html" target="_blank"><img src="fotos/5.png" alt="foto5" title="foto5"
-                    class="blur"></a></div>
 
-        <div class="hijo"><a href="index6.html" target="_blank"><img src="fotos/6.svg" alt="foto6" title="foto6" class="blur"></a></div>
-        <div class="hijo"><a href="fotos/7.jpg" target="_blank"><img src="fotos/7.jpg" alt="foto7" title="foto7" class="blur"></a></div>
-        <div<a href="fotos/8.jpg" target="_blank"><img src="fotos/8.jpg" alt="foto8" title="foto8" class="blur"></a>
-        <a href="fotos/9.jpg" target="_blank"><img src="fotos/9.jpg" alt="foto9" title="foto9" class="blur"></a> -->
+        <div class="hijo">
+            <a href="fotos/7.jpg" data-lightbox="roadtrip" data-title="Luz en la noche">
+                <img src="fotos/7.jpg" alt="foto7" title="fLuz en la noche" class="blur"></a>
+        </div>
+        <div class="hijo">
+            <a href="fotos/8.jpg" data-lightbox="roadtrip" data-title="Draw in your style">
+                <img src="fotos/8.jpg" alt="foto8" title="foto8" class="blur"></a>
+        </div>
+
+
+        <div class="hijo">
+            <a href="fotos/9.jpg" data-lightbox="roadtrip" data-title="Retrato nocturno">
+                <img src="fotos/9.jpg" alt="foto9" title="Retrato nocturno" class="blur"></a>
+        </div>
+
     </div>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
