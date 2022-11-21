@@ -88,5 +88,10 @@ img{
 a:hover{
     position: relative;
     top: 10px;
-    color: lightslategrey;
+    /* color: lightslategrey; */
+}
+
+.iconos{
+    height: 35px;
+    width: 35px;
 }
