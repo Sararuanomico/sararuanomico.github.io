@@ -1,78 +1,99 @@
-body {
-    background-image: url(fotos/Fondo.jpg);
-    background-size: 100%;
+body{
+    background-image: url(fotos/Fondo.jpg) ;
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
+    padding: 0;
 }
 
-
-img{
-    height: 30px;
-    width: 30px;
+header{
+height: 100px;
+background-color: blue;
+opacity: 50%;
+margin-right: 20%;
+margin-left: 20%;
+display: flex;
+justify-content: space-between;
 }
 
-.contenedor1 {
-    position: relative;
-    top: 100px;
-    left: 100px;
-    width: 450px;
-    text-align: justify;
-}
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20pt;
-}
-
-
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-size: 10pt;
-}
-
-.contenedor2 {
-    position: relative;
-    top: 200px;
-    left: 800px;
-    width: 450px;
-}
-
-
-h3{
-    font-family: 'Archivo', sans-serif;
-    font-size: 20pt;
-}
-
-.cabecera{
-    margin-left: 100px;
-    height: 150px;
-    width: 80px;
-}
-
-.ofertas{
-    /* position: relative;
-    top: 250px;
-    left: 100px; */
-    margin-top: 300px;
-    width: 100%;
-    
-    background-color:rgb(71, 71, 71);
-    background-size: 100%;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
-
-.contenedorimg {
-    width: 200px;
-    height: 50px;
-    position: relative;
-    left: 1200px;
-    top: -90px; 
+header nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: flex-start;
-} 
+    background-color: aqua;
+    margin-top: 20px;
 
+}
+
+header nav img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+main{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-top: 100px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+main section{
+    width: 450px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+section div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section div div{
+    display: flex;
+    align-items:center;
+    background-color: antiquewhite;
+}
+
+section div img{
+    width: 30px;
+    /* height: 30px; */
+    margin-left: 10px;
+}
+
+section img{
+    width: 70px;
    
+}
+
+footer{
+    /* display: flex; */
+   margin-top: 250px;
+    background-color: rgb(69, 69, 69);
+    height: 200px;
+    /* opacity: 60%; */
+
+
+}
+
+
+#section2{
+    background-color: rgb(109, 109, 109);
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50%;
+    padding-top: 20px;
+    padding-left:100px;
+
+}
+
+#section1{
+    display:flex;
+    background-color: rgb(69, 69, 69);
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
