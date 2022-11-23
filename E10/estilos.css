@@ -1,0 +1,78 @@
+body {
+    background-image: url(fotos/Fondo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+.contenedor1 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 450px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+}
+
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+}
+
+.contenedor2 {
+    position: relative;
+    top: 200px;
+    left: 800px;
+    width: 450px;
+}
+
+
+h3{
+    font-family: 'Archivo', sans-serif;
+    font-size: 20pt;
+}
+
+.cabecera{
+    margin-left: 100px;
+    height: 150px;
+    width: 80px;
+}
+
+.ofertas{
+    /* position: relative;
+    top: 250px;
+    left: 100px; */
+    margin-top: 300px;
+    width: 100%;
+    
+    background-color:rgb(71, 71, 71);
+    background-size: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedorimg {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 1200px;
+    top: -90px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+} 
+
+   
