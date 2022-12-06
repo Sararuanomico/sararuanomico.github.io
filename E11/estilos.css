@@ -15,9 +15,9 @@ body {
 }
 
 .hijo {
-    margin: 10px;
+    margin: 5px;
     width: 500px;
-    /* height: 180px; */
+    height: 300px;
     background-color: rgb(249, 249, 249);
     padding: 10px;
     flex-direction: column;
@@ -28,7 +28,145 @@ body {
 
 }
 
-#tipo1{
-    font-family: 'Aboreto', cursive;
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: RobotoBoldItalic;
+    src: url(fonts/Roboto-BoldItalic.ttf);
+}
+
+.roboto{
+    font-family: Roboto;
+    font-size: 15pt;
+}
+
+.robotobolditalic{
+    font-family: RobotoBoldItalic;
+    font-size: 15pt;
+}
+
+@font-face {
+    font-family: Tangerine;
+    src: url(fonts/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: TangerineBold;
+    src: url(fonts/Tangerine-Bold.ttf);
+}
+
+.tangerine{
+    font-family: Tangerine;
+    font-size: 21pt;
+}
+
+.tangerinebold{
+    font-family: TangerineBold;
+    font-size: 21pt;
+}
+
+
+@font-face {
+    font-family: Kenia;
+    src: url(fonts/Kenia-Regular.ttf);
+}
+
+.Kenia{
+    font-family: Kenia;
+    font-size: 18pt;
+}
+
+@font-face {
+    font-family: DiplomataSC;
+    src: url(fonts/DiplomataSC-Regular.ttf);
+}
+
+.DiplomataSC{
+    font-family: DiplomataSC;
+    font-size: 10pt;
+}
+
+@font-face {
+    font-family: RockSalt;
+    src: url(fonts/RockSalt-Regular.ttf);
+}
+
+.RockSalt{
+    font-family: RockSalt;
+    font-size: 9pt;
+}
+
+@font-face {
+    font-family: PragatiNarrow;
+    src: url(fonts/PragatiNarrow-Regular.ttf);
+}
+
+@font-face {
+    font-family: PragatiNarrowBold;
+    src: url(fonts/PragatiNarrow-Bold.ttf);
+}
+
+.PragatiNarrow{
+    font-family: PragatiNarrow;
+    font-size: 14pt;
+}
+
+.PragatiNarrowBold{
+    font-family: PragatiNarrowBold;
+    font-size: 14;
+}
+
+@font-face {
+    font-family: Syncopate;
+    src: url(fonts/Syncopate-Regular.ttf);
+}
+
+@font-face {
+    font-family: SyncopateBold;
+    src: url(fonts/Syncopate-Bold.ttf);
+}
+
+.Syncopate{
+    font-family: Syncopate;
+    font-size: 12.5pt;
+}
+
+.SyncopateBold{
+    font-family: SyncopateBold;
+    font-size: 12.5;
+}
+
+@font-face {
+    font-family: Glegoo;
+    src: url(fonts/Glegoo-Regular.ttf);
+}
+
+@font-face {
+    font-family: GlegooBold;
+    src: url(fonts/Glegoo-Bold.ttf);
+}
+
+.Glegoo{
+    font-family: Glegoo;
+    font-size: 11.5pt;
+}
+
+.GlegooBold{
+    font-family: GlegooBold;
+    font-size: 11.5pt;
+}
+
+
+@font-face {
+    font-family: VT323;
+    src: url(fonts/VT323-Regular.ttf);
+}
+
+.VT323{
+    font-family: VT323;
+    font-size: 16.5pt;
+}
