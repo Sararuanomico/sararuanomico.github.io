@@ -108,3 +108,15 @@ transition: color .1s;
 .nitidez :hover{
     filter:blur(1px);
 }
+
+a{
+    text-decoration: none !important;
+    font-size: 80%;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none !important;
+    font-size: 80%;
+    color: white;
+}
