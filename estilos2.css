@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+   background-color: black;
+   /* margin-left: 5%;
+   margin-right: 5%; */
+}
+header{
+background-image: url(header.png);
+/* height: 100%; */
+width: 100%;
+height: 200px;
+background-size: 100%;
+background-repeat: no-repeat;
+margin-top: 50px;
+
+
+}
+
+h1{
+font-size: 70pt;
+color: white;
+font-family: 'Aboreto', cursive;
+    text-align: right;
+    margin-bottom: 0%;
+    margin-left: 5%;
+   margin-right: 5%;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Sono', sans-serif;
+    color: white;
+    text-align: right;
+    margin-left: 5%;
+   margin-right: 5%;
+}
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start; */
+    margin-bottom: 50%;
+margin-left: 75px;
+margin-right: 75px;
+}
+
+.paginas{
+    height: 50px;
+    width: 190px;
+}
+
+.hijo {
+    height: 50px;
+    width: 190px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    align-content: flex-start;
+     border-radius: 10px;
+}
+
+.nav{
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: 'Sono', sans-serif;
+    font-size: 14pt;
+    color: black;
+    text-align: right;
+    
+}
+
+.nav a{
+    position: absolute;
+    right: 75px;
+    top: 7px;
+}
+
+a:hover{
+    position: relative;
+    top: 10px;
+    /* color: lightslategrey; */
+}
+
+.iconos{
+    height: 35px;
+    width: 35px;
+}
